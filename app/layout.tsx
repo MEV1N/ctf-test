@@ -20,8 +20,8 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      {/* ROT13 Challenge: synt{e0g13_q3p1cu3e3q_5hppr54h11l} */}
       <body className={`font-sans antialiased`}>
+        <div dangerouslySetInnerHTML={{ __html: '<!-- ROT13 Challenge: synt{e0g13_q3p1cu3e3q_5hppr54h11l} -->' }} />
         {children}
         <Analytics />
       </body>

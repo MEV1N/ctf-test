@@ -6,7 +6,7 @@ import { Button } from "@/components/ui/button"
 export default function TargetPage() {
   return (
     <main className="min-h-screen bg-background flex items-center justify-center">
-      {/* flag{7h3_s0urc3_c0d3_n3v3r_l13s} */}
+      <div dangerouslySetInnerHTML={{ __html: '<!-- flag{7h3_s0urc3_c0d3_n3v3r_l13s} -->' }} />
       <div className="container mx-auto px-4 py-12 text-center">
         <div className="max-w-2xl mx-auto">
           <h1 className="text-4xl font-bold mb-6 terminal-text neon-glow">
